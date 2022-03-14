@@ -14,3 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   question: the cathetuses of the rightangled triangle triangle are 3 and 4. What
     is the hypotenuse ?
+  answers:
+  - 5
+  - 2
+  - 6.5
+  - 7

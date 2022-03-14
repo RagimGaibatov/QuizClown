@@ -15,3 +15,8 @@ MonoBehaviour:
   question: 'What is x?
 
     45 + x = 24'
+  answers:
+  - 17
+  - -19
+  - -21
+  - 14

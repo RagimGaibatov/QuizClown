@@ -13,3 +13,8 @@ MonoBehaviour:
   m_Name: Question 2
   m_EditorClassIdentifier: 
   question: Whose is this quote " i know that i know nothing" ?
+  answers:
+  - Socrat
+  - Baklan
+  - Friedrich Nietzsche
+  - Immanuel Kant

@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
     [SerializeField] private float timeToCompleteQuestion = 30f;
     [SerializeField] private float timeToShowCorrectAnswer = 10f;
+    private Timer timer;
 
     public bool loadNextQuestion;
     public float fillFraction;
-
-    private bool isAnsweringQuestion;
+    public bool isAnsweringQuestion;
+    
     private float timerValue;
 
     void Update()
@@ -22,7 +24,7 @@ public class Timer : MonoBehaviour
     {
         timerValue = 0;
     }
-    
+
     void UpdateTimer()
     {
         timerValue -= Time.deltaTime;
